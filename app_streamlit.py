@@ -233,8 +233,9 @@ def get_response(assistant_id):
             process_assistant_response(assistant_id, question_v)
     # Get user input from chat and proceed if a prompt is entered
     if prompt := st.chat_input("Enter your message here"):
-        placeholder.empty()
-        st.session_state.starter_displayed = True
+        if not st.session_state.get("starter_displayed", False):
+            placeholder.empty()
+            st.session_state.starter_displayed = True
         # Add user input as a message to session_state
         st.session_state.messages.append({"role": "user", "content": prompt})
         # Display user's message in the chat UI
