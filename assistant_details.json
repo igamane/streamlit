@@ -1,0 +1,67 @@
+{
+    "ITF Juniors": {
+        "id": "asst_KD9NedaXkRR87yIUSAOQ8n",
+        "model": "gpt-4-1106-preview",
+        "instructions": "New instructions that override the Assistant instructions",
+        "tools": [{"type": "code_interpreter"}, {"type": "retrieval"}],
+        "files": ["file-ylWrPo3TiGKVQMOvHZN39v3o"],
+        "starter_questions": [
+            "Question 1 for ITF Juniors",
+            "Question 2 for ITF Juniors", 
+            "Question 3 for ITF Juniors",
+            "Question 4 for ITF Juniors"
+        ]
+    },
+    "UTR": {
+        "id": "asst_KD9NedaXkRR87yIUSAOQ8nNk",
+        "model": "gpt-4-1106-preview",
+        "instructions": "New instructions that override the Assistant instructions",
+        "tools": [{"type": "code_interpreter"}, {"type": "retrieval"}],
+        "files": ["file-QXWnO0RYlItDOQnfyavoqUbx"],
+        "starter_questions": [
+            "Question 1 for UTR",
+            "Question 2 for UTR",
+            "Question 3 for UTR",
+            "Question 4 for UTR"
+        ]
+    },
+    "USTA Ranking": {
+        "id": "asst_KD9NedaXkRR87yIUSAOQ8nNm",
+        "model": "gpt-4-1106-preview",
+        "instructions": "New instructions that override the Assistant instructions",
+        "tools": [{"type": "code_interpreter"}, {"type": "retrieval"}],
+        "files": ["file-BbTWpAuLWw1SZwiLrfHaxdxF"],
+        "starter_questions": [
+            "Question 1 for USTA Ranking",
+            "Question 2 for USTA Ranking",
+            "Question 3 for USTA Ranking",
+            "Question 4 for USTA Ranking"
+        ]
+    },
+    "USTA General": {
+        "id": "asst_KD9NedaXkRR87yIUSAOQ8z",
+        "model": "gpt-4-1106-preview",
+        "instructions": "New instructions that override the Assistant instructions",
+        "tools": [{"type": "code_interpreter"}, {"type": "retrieval"}],
+        "files": ["file-etwd86DQX6OxczC7rtuaTk8U", "file-eT0jAtJlnJXsyUjJ0b4LtKf2"],
+        "starter_questions": [
+            "Question 1 for USTA General",
+            "Question 2 for USTA General",
+            "Question 3 for USTA General",
+            "Question 4 for USTA General"
+        ]
+    },
+    "WTN": {
+        "id": "asst_KD9NedaXkRR87yIUSAOQ8nNz",
+        "model": "gpt-4-1106-preview",
+        "instructions": "New instructions that override the Assistant instructions",
+        "tools": [{"type": "code_interpreter"}, {"type": "retrieval"}],
+        "files": ["file-XDZ6GnTQXlWirAuOSGTvYUnN", "file-yywcqefTwGqIvMzgkvpBLRZx"],
+        "starter_questions": [
+            "How is the ITF World Tennis Number calculated?",
+            "What is the Game zONe and how does it affect my matches?",
+            "How can I maintain or improve my World Tennis Number rating?",
+            "What are the age requirements for the ITF World Tennis Tour Juniors?"
+        ]
+    }
+}
