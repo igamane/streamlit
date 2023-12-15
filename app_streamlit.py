@@ -36,7 +36,7 @@ def init():
         st.session_state.thread_id = None
 
 # Set OpenAI API key
-openai.api_key = "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"
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Retrieve assistant IDs from environment variables
 ASSISTANT_ID_ITF_JUNIORS = os.getenv('ASSISTANT_ID_ITF_JUNIORS')
